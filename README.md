@@ -96,6 +96,10 @@ This means the model:
 * Incorrectly flagged 582 non-churners as churners
 * Missed 1,670 customers who actually churned
 
+### Confusion Matrix
+
+![Logistic Regression Confusion Matrix](confusion_matrix.png)
+
 The last result is particularly important from a business perspective. If the goal is proactive customer retention, failing to identify a customer who is likely to churn may represent a missed opportunity for intervention.
 
 ⸻
@@ -103,6 +107,10 @@ The last result is particularly important from a business perspective. If the go
 Key Feature Insights
 
 Logistic Regression coefficients were examined to understand which numerical features were most strongly associated with the model’s churn predictions.
+
+### Most Influential Numerical Features
+
+![Top Numerical Features Associated with Customer Churn](top_churn_features.png)
 
 Stronger Positive Associations with Churn
 
